@@ -2,7 +2,7 @@ export default function Header () {
     return (
         <header>
             <div className="container header flex justify-between items-center">
-                <img src='/banquee.svg' alt="logo" />
+                <img src='/icons/banquee.svg' alt="logo" />
                 <nav className="flex">
                     <a href="">Features</a>
                     <a href="">Compare</a>
