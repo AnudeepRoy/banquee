@@ -1,0 +1,69 @@
+@use './variables.scss' as *;
+@use './components/header.scss' as *;
+
+@import "tailwindcss";
+
+@font-face {
+    font-family: 'Inter';
+    src: url('./fonts/Inter_18pt-Bold.ttf');
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('./fonts/Inter_18pt-Medium.ttf');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('./fonts/Inter_18pt-Regular.ttf');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('./fonts/Inter_18pt-Light.ttf');
+    font-weight: 300;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Inter;
+}
+
+.container {
+  width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
+}

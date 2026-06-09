@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import "tailwindcss";
+import './styles/custom.scss';
 
 export const metadata: Metadata = {
   title: "Banquee",
