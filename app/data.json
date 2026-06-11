@@ -12,5 +12,71 @@
         {
             "text" : "100% Mobile Banking"
         }
+    ],
+
+    "one-app" : [
+        {
+            "title" : "Instant transactions",
+            "text" : "Officia reprehenderit ad do pariatur duis dolore consectetur eu. Aute exercitation officia anim consectetur nisi et nulla.",
+            "image" : "/icons/ri_check-fill.svg"
+        },
+        {
+            "title" : "Savings Account",
+            "text" : "Officia reprehenderit ad do pariatur duis dolore consectetur eu. Aute exercitation officia anim consectetur nisi et nulla.",
+            "image" : "/icons/ri_check-fill.svg"
+        },
+        {
+            "title" : "Mobile Banking",
+            "text" : "Officia reprehenderit ad do pariatur duis dolore consectetur eu. Aute exercitation officia anim consectetur nisi et nulla.",
+            "image" : "/icons/ri_check-fill.svg"
+        },
+        {
+            "title" : "Advanced Statistics",
+            "text" : "Officia reprehenderit ad do pariatur duis dolore consectetur eu. Aute exercitation officia anim consectetur nisi et nulla.",
+            "image" : "/icons/ri_check-fill.svg"
+        },
+        {
+            "title" : "Virtual Cards",
+            "text" : "Officia reprehenderit  ad do pariatur duis dolore consectetur eu. Aute exercitation officia anim consectetur nisi et nulla.",
+            "image" : "/icons/ri_check-fill.svg"
+        },
+        {
+            "title" : "Contactless Payments",
+            "text" : "Officia reprehenderit ad do pariatur duis dolore consectetur eu. Aute exercitation officia anim consectetur nisi et nulla.",
+            "image" : "/icons/ri_check-fill.svg"
+        }
+    ],
+
+    "apple-card" : [
+        {
+            "brand" : "Apple",
+            "product" : "Macbook",
+            "cost" : "999"
+        },
+        {
+            "brand" : "Amazon",
+            "product" : "Electronics",
+            "cost" : "49"
+        },
+        {
+            "brand" : "Twitter",
+            "product" : "Ads",
+            "cost" : "29"
+        },
+        {
+            "brand" : "Microsoft",
+            "product" : "Office Suite",
+            "cost" : "149"
+        },
+        {
+            "brand" : "Dropbox",
+            "product" : "Cloud",
+            "cost" : "14"
+        },
+        {
+            "brand" : "Paypal",
+            "product" : "Sharing",
+            "cost" : "200"
+        }
     ]
 }

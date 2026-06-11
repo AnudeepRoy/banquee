@@ -8,7 +8,7 @@ export default function HomeHero () {
     const homeHero = data['home-hero'];
 
     return (
-        <section className="home-hero">
+        <section className="home-hero p-128">
             <div className="container flex items-center">
                 <div className="hero-left flex-grow">
                     <HeroHeader 
@@ -26,7 +26,6 @@ export default function HomeHero () {
                 <div className="hero-right flex-grow">
                     <img src={`/images/cards.png`} />
                 </div>
-                
             </div>
         </section>
     )

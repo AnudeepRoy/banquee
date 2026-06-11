@@ -8,8 +8,31 @@ header {
     }
 }
 
+section {
+    &.p-128 {
+        padding: 128px 0;
+    }
+    &.p-160 {
+        padding: 160px 0;
+    }
+    .container {
+        &.g-164 {
+            gap: 164px;
+        }
+        &.g-140 {
+            gap: 140px;
+        }
+        &.g-124 {
+            gap: 124px;
+        }
+    }
+}
+
+.g-124 {
+    gap: 124px;
+}
+
 .home-hero {
-    padding: 128px 0;
     .container {
         gap: 164px;
     }
@@ -24,6 +47,15 @@ h2 {
     }
 }
 
+h3 {
+    &.section-heading {
+        font-size: 80px;
+        line-height: 110%;
+        letter-spacing: -3%;
+        padding: 0 0 16px;
+    }
+}
+
 .bullet-points {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -31,16 +63,6 @@ h2 {
     padding: 0 0 64px;
     .bullet {
         gap: 16px;
-        .img-wrapper { 
-            width: 28px;
-            height: 28px;
-            padding: 4px;
-            background: $secondary;
-            border-radius: 50%;
-            img {
-                filter: $primary-filter;
-            }
-        }
     }
 }
 
@@ -54,4 +76,76 @@ h2 {
     img {
         filter: $primary-filter;
     }
+}
+
+.card-grid {
+    gap: 16px;
+}
+
+.app-card {
+    padding: 32px;
+    border-radius: 16px;
+    border: 2px solid $border;
+    gap: 16px;
+    h4 {
+        font-size: 20px;
+        line-height: 120%;
+        letter-spacing: -3%;
+        font-weight: 500;
+        width: min-content;
+    }
+}
+
+.img-container {
+    border-radius: 50%;
+    background: $secondary;
+    padding: 11px;
+    display: flex;
+    img {
+        filter: $primary-filter;
+    }
+    &.w-50 {
+        width: 50px;
+        height: 50px;
+    }
+    &.w-28 {
+        width: 28px;
+        height: 28px;
+    }
+    &.w-26 {
+        width: 26px;
+        height: 26px;
+    }
+    &.p-4 {
+        padding: 4px;
+    }
+    &.reverse {
+        background: primary;
+        img {
+            filter: $secondary-filter;
+        }
+    }
+}
+
+.section-text {
+    font-size: 20px;
+}
+
+.apple-card {
+    background: $white;
+    border-radius: 10px;
+    padding: 16px;
+    h4 {
+        font-size: 18px;
+    }
+    p {
+        opacity: 50%;
+    }
+}
+
+.bg-primary {
+    background: $primary;
+}
+.bg-secondary {
+    background: $secondary;
 }
